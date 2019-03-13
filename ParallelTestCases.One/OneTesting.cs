@@ -5,7 +5,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ParallelTestCases.One
 {
     [TestClass]
-    [DoNotParallelize]
     public class OneTesting
     {
         [TestMethod]
